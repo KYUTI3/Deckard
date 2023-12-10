@@ -6,13 +6,15 @@ Pressable,
 StyleSheet,
 } from "react-native"
 
-const onBoard = "Sign Up"
-const Login = "Login"
+const txt = [ 
+  {txt1:"Sign Up"}, 
+  {txt2: "Login"}
+]
 
 const Button = ({ onPress, title }) => (
   <View style={styles.ButtonContainer}> 
     <Pressable onPress={onPress}>
-        <Text style={styles.ButtonText}>{2}</Text>
+        <Text style={styles.ButtonText}>{txt}</Text>
     </Pressable>
   </View>
 );
@@ -25,7 +27,7 @@ const styles = StyleSheet.create({
     },
     ButtonContainer: {
       elevation: 8,
-      backgroundColor: "#009688",
+      backgroundColor: "#F39C12",
       borderRadius: 10,
       paddingVertical: 10,
       paddingHorizontal: 12,

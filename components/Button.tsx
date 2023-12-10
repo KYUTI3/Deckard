@@ -8,13 +8,13 @@ StyleSheet,
 
 const txt = [ 
   {txt1:"Sign Up"}, 
-  {txt2: "Login"}
+  {txt2: "Login"},
 ]
 
 const Button = ({ onPress, title }) => (
   <View style={styles.ButtonContainer}> 
     <Pressable onPress={onPress}>
-        <Text style={styles.ButtonText}>{txt}</Text>
+        <Text style={styles.ButtonText}>{title}</Text>
     </Pressable>
   </View>
 );

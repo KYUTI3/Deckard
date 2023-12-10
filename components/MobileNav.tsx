@@ -1,5 +1,10 @@
 import React from "react"
-import {View, Text, Image} from "react-native"
+import {
+ View, 
+ Text, 
+ Image,
+ Pressable
+} from "react-native"
 
 const MobileNav = () => {
     return <Text>blah blah</Text>

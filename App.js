@@ -1,13 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Button from './components/Button';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet, 
+  Text, 
+  View 
+} from 'react-native';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Deckard</Text>
       <Text>Welcome to Deckard!</Text>
-      <Button {{txt.txt1}}/>
-      <Button {{txt="Sign Up"}}/>
+      <Button title={txt[0].txt1} />
+      <Button title={txt[0].txt2}/>
       <StatusBar style="auto" />
     </View>
   );

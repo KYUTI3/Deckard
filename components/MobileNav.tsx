@@ -1,3 +1,8 @@
 import React from "react"
-import {View, Text} from "react-native"
+import {View, Text, Image} from "react-native"
 
+const MobileNav = () => {
+    return <Text>blah blah</Text>
+    };
+    
+export default MobileNav; 

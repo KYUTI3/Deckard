@@ -2,7 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import Button from './components/Button';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StyleSheet, 
+import { 
+  StyleSheet, 
   Text, 
   View 
 } from 'react-native';
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
     marginTop: '15px'
   },
   title: {
-    fontWeight: 'bold';
+    fontWeight: 'bold',
     fontSize: 25,
 
   },
